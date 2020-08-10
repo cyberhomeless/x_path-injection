@@ -1,0 +1,7 @@
+char extract payloads:
+
+substring(//user[userid=5]/username,2,1)=codepoints-to-string(INT_ORD_CHAR_HERE)
+substring(//user[userid=5]/username,2,1)=CHAR_HERE
+
+
+for more payloads check https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XPATH%20Injection
